@@ -1,0 +1,255 @@
+{
+  "sha256_selftest": {
+    "million_a_seconds": 2.7910781248938292,
+    "million_a_mib_per_s": 0.34168671521601607
+  },
+  "hiding": {
+    "message_space": 32,
+    "unblinded_recovered": true,
+    "blinded_false_hits": 0,
+    "trials": 200,
+    "hamming_different_mean": 128.205,
+    "hamming_same_message_mean": 128.385,
+    "hamming_ideal": 128
+  },
+  "binding": {
+    "toy_digest_bits": 16,
+    "toy_trials": 664,
+    "toy_binding_broken": true,
+    "yes_blind": "000000f3",
+    "no_blind": "00000298",
+    "colliding_leaf": "2b1f",
+    "sha256_search": 4096,
+    "sha256_binding_breaks": 0
+  },
+  "performance": {
+    "trees": [
+      {
+        "n": 1,
+        "width": 1,
+        "commit_ms": 0.4687500186264515,
+        "open_ms": 0.001073954626917839,
+        "verify_ms": 0.466585427056998,
+        "rebuild_ms": 0.4687500186264515,
+        "speedup_vs_rebuild": 1.0046392181236923,
+        "proof_bytes": 0,
+        "opening_bytes": 43,
+        "commit_hashes": 2,
+        "verify_hashes": 2
+      },
+      {
+        "n": 2,
+        "width": 2,
+        "commit_ms": 1.083750044927001,
+        "open_ms": 0.001624790020287037,
+        "verify_ms": 0.7726375013589859,
+        "rebuild_ms": 1.083750044927001,
+        "speedup_vs_rebuild": 1.4026630121121506,
+        "proof_bytes": 32,
+        "opening_bytes": 75,
+        "commit_hashes": 4,
+        "verify_hashes": 3
+      },
+      {
+        "n": 4,
+        "width": 4,
+        "commit_ms": 2.3141249548643827,
+        "open_ms": 0.0019812502432614565,
+        "verify_ms": 1.1991781240794808,
+        "rebuild_ms": 2.3141249548643827,
+        "speedup_vs_rebuild": 1.9297591478670135,
+        "proof_bytes": 64,
+        "opening_bytes": 107,
+        "commit_hashes": 8,
+        "verify_hashes": 4
+      },
+      {
+        "n": 8,
+        "width": 8,
+        "commit_ms": 5.3157920483499765,
+        "open_ms": 0.0027041707653552294,
+        "verify_ms": 1.5508593758568168,
+        "rebuild_ms": 5.3157920483499765,
+        "speedup_vs_rebuild": 3.42764284828411,
+        "proof_bytes": 96,
+        "opening_bytes": 139,
+        "commit_hashes": 16,
+        "verify_hashes": 5
+      },
+      {
+        "n": 16,
+        "width": 16,
+        "commit_ms": 10.830667102709413,
+        "open_ms": 0.0032943743281066418,
+        "verify_ms": 1.7780677240807563,
+        "rebuild_ms": 10.830667102709413,
+        "speedup_vs_rebuild": 6.091256792993508,
+        "proof_bytes": 128,
+        "opening_bytes": 171,
+        "commit_hashes": 32,
+        "verify_hashes": 6
+      },
+      {
+        "n": 32,
+        "width": 32,
+        "commit_ms": 22.477833088487387,
+        "open_ms": 0.003722294932231307,
+        "verify_ms": 3.414526046253741,
+        "rebuild_ms": 22.477833088487387,
+        "speedup_vs_rebuild": 6.583002379832194,
+        "proof_bytes": 160,
+        "opening_bytes": 203,
+        "commit_hashes": 64,
+        "verify_hashes": 7
+      },
+      {
+        "n": 64,
+        "width": 64,
+        "commit_ms": 50.73587503284216,
+        "open_ms": 0.011745210504159331,
+        "verify_ms": 3.457786451326683,
+        "rebuild_ms": 50.73587503284216,
+        "speedup_vs_rebuild": 14.672934765354242,
+        "proof_bytes": 192,
+        "opening_bytes": 235,
+        "commit_hashes": 128,
+        "verify_hashes": 8
+      },
+      {
+        "n": 128,
+        "width": 128,
+        "commit_ms": 98.79179205745459,
+        "open_ms": 0.004854584112763405,
+        "verify_ms": 2.9097874998115003,
+        "rebuild_ms": 98.79179205745459,
+        "speedup_vs_rebuild": 33.95154871751097,
+        "proof_bytes": 224,
+        "opening_bytes": 267,
+        "commit_hashes": 256,
+        "verify_hashes": 9
+      },
+      {
+        "n": 256,
+        "width": 256,
+        "commit_ms": 161.01249982602894,
+        "open_ms": 0.004713329253718257,
+        "verify_ms": 2.858114574337378,
+        "rebuild_ms": 161.01249982602894,
+        "speedup_vs_rebuild": 56.3352152750412,
+        "proof_bytes": 256,
+        "opening_bytes": 299,
+        "commit_hashes": 512,
+        "verify_hashes": 10
+      },
+      {
+        "n": 512,
+        "width": 512,
+        "commit_ms": 313.39683290570974,
+        "open_ms": 0.006615625461563468,
+        "verify_ms": 3.7907552265096456,
+        "rebuild_ms": 313.39683290570974,
+        "speedup_vs_rebuild": 82.67398293460147,
+        "proof_bytes": 288,
+        "opening_bytes": 331,
+        "commit_hashes": 1024,
+        "verify_hashes": 11
+      },
+      {
+        "n": 1024,
+        "width": 1024,
+        "commit_ms": 687.0821251068264,
+        "open_ms": 0.014929375611245632,
+        "verify_ms": 3.962297923862934,
+        "rebuild_ms": 687.0821251068264,
+        "speedup_vs_rebuild": 173.40496305663316,
+        "proof_bytes": 320,
+        "opening_bytes": 363,
+        "commit_hashes": 2048,
+        "verify_hashes": 12
+      },
+      {
+        "n": 2048,
+        "width": 2048,
+        "commit_ms": 1602.7811670210212,
+        "open_ms": 0.00682624988257885,
+        "verify_ms": 4.237973951967433,
+        "rebuild_ms": 1602.7811670210212,
+        "speedup_vs_rebuild": 378.1951435253508,
+        "proof_bytes": 352,
+        "opening_bytes": 395,
+        "commit_hashes": 4096,
+        "verify_hashes": 13
+      },
+      {
+        "n": 4096,
+        "width": 4096,
+        "commit_ms": 3726.8259169068187,
+        "open_ms": 0.008390834555029869,
+        "verify_ms": 4.641191672999412,
+        "rebuild_ms": 3726.8259169068187,
+        "speedup_vs_rebuild": 802.9890121944316,
+        "proof_bytes": 384,
+        "opening_bytes": 427,
+        "commit_hashes": 8192,
+        "verify_hashes": 14
+      }
+    ],
+    "sha256": [
+      {
+        "bytes": 64,
+        "ms": 0.3605000674724579,
+        "mib_per_s": 0.16930692046170856
+      },
+      {
+        "bytes": 1024,
+        "ms": 2.9270409140735865,
+        "mib_per_s": 0.333634728269278
+      },
+      {
+        "bytes": 4096,
+        "ms": 11.008916888386011,
+        "mib_per_s": 0.3548260051014596
+      },
+      {
+        "bytes": 32768,
+        "ms": 87.13608398102224,
+        "mib_per_s": 0.35863443216941077
+      },
+      {
+        "bytes": 262144,
+        "ms": 861.3367499783635,
+        "mib_per_s": 0.2902465266996676
+      }
+    ]
+  },
+  "example": {
+    "messages": [
+      "Alice",
+      "Bob",
+      "Carol",
+      "Dave"
+    ],
+    "blinds": [
+      "0101010101010101010101010101010101010101010101010101010101010101",
+      "0202020202020202020202020202020202020202020202020202020202020202",
+      "0303030303030303030303030303030303030303030303030303030303030303",
+      "0404040404040404040404040404040404040404040404040404040404040404"
+    ],
+    "commitment": "2eb5cf4fea2c4063f4934a3613da01833bc70eec6e19d431e8596167112da02d",
+    "n": 4,
+    "open_index": 2,
+    "open_message": "Carol",
+    "open_blind": "0303030303030303030303030303030303030303030303030303030303030303",
+    "siblings": [
+      "3f21a814c0e916cb21876e8d51f9047e72ef7df0ba25460316b43c4b5be65785",
+      "9f1fe00a77346a0644dea3394288ce35b325a139c94046c1ba1c0912850a7ce8"
+    ],
+    "sides_current_is_left": [
+      true,
+      false
+    ],
+    "verify": true,
+    "tampered_message": "Eve",
+    "tampered_verify": false
+  }
+}
